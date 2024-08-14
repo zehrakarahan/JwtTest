@@ -17,6 +17,7 @@ namespace jwt.webuı
         {
             var token = context.Request.Cookies["AccessToken"];
 
+
             if (!string.IsNullOrEmpty(token))
             {
                 // Token'ın süresini kontrol et
